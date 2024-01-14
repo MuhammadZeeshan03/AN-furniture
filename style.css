@@ -366,15 +366,16 @@ h5 {
 /*----- 6.1 Preloader
 --------------------------------------------------------------*/
 *#preloader {
-  width:100%;
-  height:100%;  
-  position:fixed;
-  z-index:20;
-  background:#ece7e1;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 20;
+  background: #ece7e1;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .loader {
   display: inline-block;
   width: 60px;
@@ -395,19 +396,19 @@ h5 {
   0% {
     transform: rotate(0deg);
   }
-  
+
   25% {
     transform: rotate(180deg);
   }
-  
+
   50% {
     transform: rotate(180deg);
   }
-  
+
   75% {
     transform: rotate(360deg);
   }
-  
+
   100% {
     transform: rotate(360deg);
   }
@@ -417,19 +418,19 @@ h5 {
   0% {
     height: 0%;
   }
-  
+
   25% {
     height: 0%;
   }
-  
+
   50% {
     height: 100%;
   }
-  
+
   75% {
     height: 100%;
   }
-  
+
   100% {
     height: 0%;
   }
@@ -501,7 +502,7 @@ h5 {
   z-index: -100;
 }
 
-@media screen and ( max-width: 991px ) {
+@media screen and (max-width: 991px) {
   .jarallax {
     min-height: 280px;
   }
@@ -871,7 +872,7 @@ h5 {
   }
 
   .banner-content h1.display-1 {
-    font-size: 4.5em;
+    font-size: 3em;
   }
 
   .banner-content p {
@@ -988,6 +989,7 @@ h5 {
   opacity: 0.3;
   transition: opacity 0.3s ease-out;
 }
+
 #brand-collection a:hover img {
   opacity: 1;
 }
